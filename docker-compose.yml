@@ -6,6 +6,7 @@ services:
       dockerfile: ./scripts/Dockerfile
     ports:
       - 3000:3000
+      - 6006:6006
     tty:
       true
     volumes:
